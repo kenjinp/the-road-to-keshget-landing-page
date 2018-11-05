@@ -1,0 +1,25 @@
+{
+  "name": "keshget-landing-page",
+  "version": "1.0.0",
+  "description": "A landing page for the Road to Keshget Player's Guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: no test specified\" && exit 0",
+    "dev": "parcel index.html --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenjinp/the-road-to-keshget-landing-page.git"
+  },
+  "author": "github@kenny.wtf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenjinp/the-road-to-keshget-landing-page/issues"
+  },
+  "homepage": "https://github.com/kenjinp/the-road-to-keshget-landing-page#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "parcel-plugin-svelte": "^1.2.3",
+    "svelte": "^2.15.2"
+  }
+}
