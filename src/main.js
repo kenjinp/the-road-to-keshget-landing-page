@@ -1,8 +1,8 @@
 const App = require('./App.svelte');
 
 const app = new App({
-  target: document.getElementById('demo'),
+  target: document.getElementById('app'),
   data: {
-    name: 'world'
+    bookLocation: 'https://dnd.kenny.wtf/book/index.html'
   }
 });
